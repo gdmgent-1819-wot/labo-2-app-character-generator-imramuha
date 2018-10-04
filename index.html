@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Arcade Character Generator</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    </head>
+    <body>
+        <h1>Arcade Character Generator</h1>
+
+        <div class="container">        
+        </div>
+
+        <button class="save">Save</button>
+        <button class="gallery">Gallery</button>
+        <button class="clear">Clear</button>
+
+        <hr>
+
+        <div class="galleryContainer">
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
+        <script>
+
+        // Initialize Firebase
+        const config = {
+            apiKey: "AIzaSyAnhsp86mRYR9h1rD0IyCne9-XayTb-6B0",
+            authDomain: "labo2-imramuha-3aa68.firebaseapp.com",
+            databaseURL: "https://labo2-imramuha-3aa68.firebaseio.com",
+            projectId: "labo2-imramuha-3aa68",
+            storageBucket: "labo2-imramuha-3aa68.appspot.com",
+            messagingSenderId: "405845944010"
+        };
+        firebase.initializeApp(config);
+        </script>
+         <script src="assets/js/app.js"></script>
+        
+    </body>
+</html>
